@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prabhat Mishra</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+    .banner { width: 100%; }
+    .banner img { width: 100%; height: auto; display: block; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 4px; color: #fff; }
+    .subtitle { color: #888; margin-bottom: 32px; }
+    .message { background: #14141e; border-radius: 12px; padding: 20px; margin-bottom: 32px; border-left: 3px solid #6366f1; font-style: italic; color: #b0b0c0; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+    .card { background: #14141e; border-radius: 12px; padding: 20px; }
+    .card h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #6366f1; margin-bottom: 12px; }
+    .card ul { list-style: none; }
+    .card li { padding: 4px 0; font-size: 0.9rem; }
+    .card li span { color: #888; margin-right: 8px; }
+    .full { grid-column: 1 / -1; }
+    .project { margin-bottom: 16px; }
+    .project:last-child { margin-bottom: 0; }
+    .project .name { color: #fff; font-weight: 600; }
+    .project .stack { font-size: 0.8rem; color: #888; margin: 2px 0; }
+    .project .link { font-size: 0.8rem; }
+    .project .link a { color: #6366f1; text-decoration: none; }
+    .project .link a:hover { text-decoration: underline; }
+    .footer { text-align: center; color: #555; font-size: 0.8rem; padding: 24px; }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <img src="assets/images/banner.png" alt="banner">
+  </div>
+  <div class="container">
+    <h1>Prabhat Mishra</h1>
+    <div class="subtitle">BCA · Full Stack Developer</div>
+
+    <div class="message">
+      "hi, i'm prabhat mishra, i'm a software developer (full stack) building software the way some people build puzzles - carefully, thoughtfully, and with a vision for the bigger picture."
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Skills</h2>
+        <ul>
+          <li><span>Languages</span> TypeScript, JavaScript, Python, Go</li>
+          <li><span>Frameworks</span> React, Next.js, Express, Flask, FastAPI</li>
+          <li><span>Databases</span> MongoDB, MySQL, PostgreSQL, Redis</li>
+          <li><span>Tools</span> Docker, Prisma, LangChain, ChromaDB</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Info</h2>
+        <ul>
+          <li><span>Experience</span> 2.5+ years</li>
+          <li><span>Communication</span> Decent, slightly introverted</li>
+          <li><span>Focus</span> Job prep, DSA, OSS contributions</li>
+          <li><span>Learning</span> Rust, DevOps</li>
+        </ul>
+      </div>
+      <div class="card full">
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="name">Mapware</div>
+          <div class="stack">Node.js, TypeScript, Express, MongoDB, Redis, Next.js, Zustand</div>
+          <div class="link"><a href="https://github.com/IsayAyase/abuseIP-map" target="_blank">IsayAyase/abuseIP-map</a></div>
+        </div>
+        <div class="project">
+          <div class="name">Ref.com</div>
+          <div class="stack">Node.js, TypeScript, Express, MongoDB, Redis, React, Redux, Docker</div>
+          <div class="link"><a href="https://github.com/IsayAyase/link-manager" target="_blank">IsayAyase/link-manager</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">Prabhat Mishra</div>
+</body>
+</html>
