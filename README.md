@@ -1,4 +1,4 @@
-<img src="assets/images/banner.png" width="100%" style="border-radius: 12px;" alt="banner">
+<img src="assets/images/banner_image_convert_blade_tools.webp" width="100%" style="border-radius: 12px;" alt="banner">
 
 ### Prabhat Mishra
 # Software Developer
